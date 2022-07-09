@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-commerce</title>
+    <link rel="stylesheet" href="styling.css">
+
+</head>
+<body>
+    <div class="header">
+        <div class="logoname">
+            <span style="font-size: 30px;"class="logo"><a href="#"><b>sneakers</b></a></span>
+        
+            <a href="#">Collections</a>
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+        
+        <div class="userinfo">
+            <a href="#">cart</a>
+            <a href="#">Login</a>
+        </div>
+       
+    </div>
+ <hr>
+    <div class="body-content">
+        <div class="images">
+            <img src="image-product-1.jpg" alt="sneaker" id="largeimage"/>
+                <div class="small-images">
+                    <img src="image-product-1.jpg" alt="img1"><br/>
+                    <img src="image-product-2.jpg" alt="img1"><br/>
+                    <img src="image-product-3.jpg" alt="img1"><br/>
+                    <img src="image-product-4.jpg" alt="img1">
+                </div>
+        </div>
+
+        <div class="description">
+                <h3 style="color: hsl(26, 100%, 55%);">SNEAKER COMPANY</h3>
+                <h1>Fall Limited Edition<br/>
+                Sneakers</h1>
+
+                <p>These low profile sneakers are your perfect casual wear<br/>
+                companion Featuring a durable rubber outer sole, they'll<br/>
+                withstand everything the weather can offer</p>
+
+                <h2>
+                    $125.00 
+                </h2>
+                
+                <input type="button" value="-" onclick="increament()" class="decrease">
+                <script>
+                    let items=0;
+                    function increament() {
+                        items++;
+                        alert(items)
+                    }
+                </script>
+                <input type="text" value="0" class="items" >
+                <input type="button" value="+" class="increase" onclick="increament()">
+                <input type="button" value="Add to cart" id="addcart">
+        </div>
+
+    </div>
+</body>
+</html>

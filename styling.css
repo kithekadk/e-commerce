@@ -1,0 +1,98 @@
+/* header styling */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100&family=Outfit:wght@400;500;600;700&display=swap');
+* {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+}
+.header {
+    display:flex;
+    gap: 60px;
+    color: black;
+    justify-content:space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    /* padding:20px; */
+    
+}
+
+.logo > a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.logoname > a , .userinfo > a{
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+}
+
+.userinfo {
+    display: flex;
+    gap: 30px;
+    
+}
+
+.logoname{
+    display: flex;
+    gap : 50px;
+}
+
+/* body styling */
+
+.body-content {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+.images{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+#largeimage {
+    width:370px; 
+    height:370px;
+    border-radius: 20px;
+    margin: 80px 0px 20px ;
+        
+}
+
+.small-images{
+    display: flex;
+    gap: 6px;
+    padding-top: 0px;
+}
+.small-images > img {
+    width: 84px;
+    height: 84px;
+    border-radius: 10px;
+    
+}
+
+.description {
+    margin-top: 90px;
+    margin-left: 90px;
+}
+#addcart {
+    background-color: hsl(25, 100%, 94%);
+    width:150px;
+    height:30px;
+    border-radius: 5px;
+
+}
+.items {
+    width:20px; 
+    height:24px;
+}
+p {
+    font-size: 16px;
+}
+h1 {
+    font-size: 30px;
+    font-weight:bolder;
+}
+.description input[type="button"] {
+    height:30px;
+}
